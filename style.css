@@ -1,0 +1,102 @@
+body{
+    font-family: 'Cabin';
+    background-color: #0e6ba8;
+}
+
+#title{
+    text-align: center;
+    color: #dcdcdd;
+    padding-top: 50px;
+    font-size: 50px;;
+}
+
+#description{
+    text-align: center;
+    color: #dcdcdd;
+
+
+}
+
+#source:hover{
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#calculator{
+   width: 320px;
+   height: 520px;
+   background-color: #20639b; 
+   margin: auto;
+   top: 50px;
+   position: relative;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#result{
+    height: 120px;
+    color:#2caea3; 
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    color: #2caea3;
+    font-size: 25px;
+}
+
+#output{
+    text-align: right;  
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+#keyboard{
+    height: 400px;   
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 5px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.operator {
+    background-color: #1985a1;
+    color: #dcdcdd;
+}
+
+.number{
+    background-color: #e7ecef;
+    color: #00afb9;
+}
+
+.empty {
+    background-color: transparent;
+}
+
+.number, .operator {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.operator:active, .number:active{
+    font-size: 25px;
+}
+
+.operator:focus, .number:focus{
+    outline: 0;
+}
+
+
